@@ -1,6 +1,6 @@
 // data.js - auto-generated
 window.DATA = {
- "generated_at": "2026/7/27 10:28:44",
+ "generated_at": "2026/7/27 10:32:39",
  "recent_days": 7,
  "industries": [
   {
