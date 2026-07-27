@@ -225,8 +225,7 @@ function boot(){
   if(rb) rb.onclick = function(){
     if(rb.classList.contains("spin")) return;
     rb.classList.add("spin");
-    window.open("https://github.com/Zacky-yu/investment-news/actions/workflows/fetch-news.yml", "_blank");
-    setTimeout(function(){ rb.classList.remove("spin"); }, 3000);
+    setTimeout(function(){ location.reload(true); }, 300);
   };
 }
 var _s=document.createElement('script'); _s.src='data.js?t='+Date.now(); _s.onload=boot;
